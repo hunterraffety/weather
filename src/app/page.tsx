@@ -38,7 +38,7 @@ export default function Home() {
   return (
     <div className="h-screen w-screen flex items-center justify-center bg-gradient-to-r from-blue-100 via-blue-50 to-blue-200">
       <div className="flex flex-col lg:flex-row w-11/12 lg:w-10/12 h-5/6 max-w-6xl rounded-3xl shadow-2xl overflow-hidden bg-white">
-       {/* left */}
+        {/* left */}
         <div className="flex-1 flex items-center justify-center border-b lg:border-b-0 lg:border-r border-gray-200">
           <InputForm onFetchWeather={handleWeatherFetch} />
         </div>
